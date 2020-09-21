@@ -1,0 +1,235 @@
+body {
+  font-family: "Ubuntu";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/*********************************************************** section with colour *****************************************************/
+.coloured-section {
+  background-color: #ff4b5c;
+  color: white;
+}
+
+.white-section {
+  background-color: #ffff;
+}
+
+/*************************************************************** Heading section *****************************************************/
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.sub-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.mini-heading {
+  font-size: 1.3rem;
+}
+
+/************************************************************* Container section ****************************************************/
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/***************************************************************** title section ***************************************************/
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 20%;
+}
+
+/**************************************************************** Navigation Bar ****************************************************/
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 250%;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+.navbar {
+  padding: 0 0 5%;
+}
+
+/**************************************************************** button-section ****************************************************/
+.my-btn {
+  margin: 5% 3% 3% 0;
+}
+
+/********************************************************************** Features *****************************************************/
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  margin-bottom: 1rem;
+  color: #ff847c;
+}
+
+.icon:hover {
+  color: #ff4b5c;
+}
+
+/****************************************************************** Testimonials ***************************************************/
+#testimonials {
+  background-color: #ff847c;
+}
+
+.testimonials-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 3%;
+}
+
+/************************************************************************* Press ****************************************************/
+#press {
+  background-color: #ff847c;
+}
+
+.press-image {
+  width: 13%;
+  padding-bottom: 3%;
+  margin: 20px 20px 50px;
+}
+
+/*********************************************************************** Pricing ****************************************************/
+#pricing {
+  padding: 10% 8%;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-three {
+  margin: auto;
+}
+
+/**************************************************************** call by action ****************************************************/
+
+
+
+/************************************************************************ footer ****************************************************/
+#footer .container-fluid {
+  padding: 2% 15% 1%;
+}
+
+.social-icon {
+  padding: 1% 2%;
+  color: black;
+}
+
+.font-footer {
+  font-size: 0.6rem;
+  color: grey;
+  padding: 1% 1%;
+}
+
+/******************************************************* Media-query break point ***************************************************/
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 65%;
+  }
+
+  .sub-heading {
+    font-size: 200%;
+  }
+
+  .testimonials-image {
+    width: 25%;
+  }
+
+  .press-image {
+    width: 15%;
+    margin: 20px 20px 20px 25px;
+  }
+
+  .my-btn {
+    margin: 5% 3% 5% 0;
+  }
+
+  .action-text {
+    color: #ffff;
+    font-size: 2rem;
+    padding-top: 2%;
+  }
+
+  .font-footer {
+    font-size: 0.6rem;
+    padding: 2% 1% 1%;
+  }
+}
+
+@media(min-width: 634px) and (max-width: 995px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    width: 50%;
+  }
+
+  .sub-heading {
+    font-size: 200%;
+  }
+
+  .testimonials-image {
+    width: 25%;
+  }
+
+  .press-image {
+    width: 15%;
+    margin: 20px 20px 20px 25px;
+  }
+
+  .my-btn {
+    margin: 5% 3% 5% 0;
+  }
+
+  .action-text {
+    color: #ffff;
+    font-size: 3rem;
+    padding-top: 3%;
+  }
+
+  .font-footer {
+    font-size: 0.6rem;
+    padding: 1% 1%;
+  }
+}
